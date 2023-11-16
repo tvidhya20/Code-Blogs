@@ -104,10 +104,8 @@ g.graph = [[0, 4, 0, 0, 0, 0, 0, 8, 0],
 
 Code Explanation :
 
-1. Initialize a set of  visited nodes and a set of unvisited nodes . The visited set is initially empty, and the unvisited set  contains all the nodes in the graph .
-
-![d2-(1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7e55a750-ed66-42de-8389-0257e157a8d8/9558adba-5b8c-4b46-a1ac-5132a690c374/d2-(1).png)
-   
+1. Initialize a set of  visited nodes and a set of unvisited nodes .
+2. The visited set is initially empty, and the unvisited set  contains all the nodes in the graph .   
 
 3. select the source node and add it into the visited set . 
 
