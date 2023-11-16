@@ -106,15 +106,18 @@ Code Explanation :
 
 1. Initialize a set of  visited nodes and a set of unvisited nodes . The visited set is initially empty, and the unvisited set  contains all the nodes in the graph .
 
-2. select the source node and add it into the visited set . 
+![d2-(1).png](https://prod-files-secure.s3.us-west-2.amazonaws.com/7e55a750-ed66-42de-8389-0257e157a8d8/9558adba-5b8c-4b46-a1ac-5132a690c374/d2-(1).png)
+   
 
-3. For each neighbor of the source node, calculate the shortest distance from the source node to the neighbor. If the calculated distance is shortest than the current distance  sorted for  the neighbor , update the neighbor’s distance and add it into the priority queue.
+3. select the source node and add it into the visited set . 
+
+4. For each neighbor of the source node, calculate the shortest distance from the source node to the neighbor. If the calculated distance is shortest than the current distance  sorted for  the neighbor , update the neighbor’s distance and add it into the priority queue.
 
 
-4. Once all nodes have been visited, the distance of each node is the shortest distance from the source node to that node
+5. Once all nodes have been visited, the distance of each node is the shortest distance from the source node to that node
 
 
-5. Here the algorithm terminates, when all of the nodes in the graph have been visited. At this point , the tentative distance of each node is equal to the shortest distance from the source to that node. 
+6. Here the algorithm terminates, when all of the nodes in the graph have been visited. At this point , the tentative distance of each node is equal to the shortest distance from the source to that node. 
 
 **Time Complexity and space complexity :**
 
